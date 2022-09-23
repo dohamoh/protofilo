@@ -63,7 +63,7 @@ ul li .home2{
     z-index: 0;
 }
 header{
-    background-image: url(/images/intro-bg.jpg);
+    background-image: url(./images/intro-bg.jpg);
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -1516,6 +1516,8 @@ button:hover{
     }
 }
 
+
+
 @media screen and (max-width:600px) {
 
     header{
@@ -1644,4 +1646,4 @@ button:hover{
         width: 21rem;
         font-size: 0.9rem;
     }
-}
+} 
