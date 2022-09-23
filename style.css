@@ -11,7 +11,6 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    /* margin-top: 0.5rem; */
     position: fixed;
     z-index: 1;
 }
@@ -50,15 +49,6 @@ ul li .home2{
 .con2 li a:hover{
     color:#20c997 ;
 }
-/* @media screen and (max-width:700px) {
-    .nav{
-        flex-direction: column;
-    }
-    .con2 ul{
-        flex-direction: column;
-        align-items: center;
-    }
-} */
 /* -------------------------------------------header------------------------------------ */
 #home{
     position: relative;
@@ -81,7 +71,6 @@ header{
     align-items: center;
     justify-content: center;
     z-index: 0;
-    /* position: relative; */
 }
 .con3 h3{
     font-weight: 600;
@@ -103,7 +92,6 @@ header{
     font-family: "Poppins", sans-serif;
     margin-right: 0rem;
     padding-right: 0rem;
-    /* margin-top: 0.75rem; */
     margin-left: 0.5rem;
     margin-top: 0rem;
     padding-top: 0rem;
@@ -432,7 +420,6 @@ button:hover{
     margin-top: 5rem;
 }
 .sec3 .ser{
-    /* z-index: -1; */
     color: #dee3e4;
     font-size: 8.25rem;
     width: 100%!important;
@@ -440,7 +427,6 @@ button:hover{
     font-weight: 550;
     text-align: center;
     font-family: "Poppins", sans-serif;
-    /* margin-top: 5rem; */
 }
 .sec3 .wid{
     z-index: 0;
@@ -452,7 +438,6 @@ button:hover{
     position: relative!important;
     text-align: center;
     font-family: "Poppins", sans-serif !important;
-    /* margin-top: 5rem; */
     margin-bottom: 0rem;
 }
 /* .sec3 .wid::after{
@@ -506,7 +491,6 @@ button:hover{
 .sec3aa .item1{
     width: 100px;
     height: 70px;
-    /* position: absolute; */
     top: 0;
     left: 0;
     margin-bottom: 0rem;
@@ -534,7 +518,6 @@ button:hover{
     margin-top: 5rem;
 }
 .sec4 .sum{
-    /* z-index: -1; */
     color: #dee3e4;
     font-size: 8.25rem;
     width: 100%!important;
@@ -542,7 +525,6 @@ button:hover{
     font-weight: 550;
     text-align: center;
     font-family: "Poppins", sans-serif;
-    /* margin-top: 5rem; */
 }
 .sec4 .res{
     z-index: 0;
@@ -554,7 +536,6 @@ button:hover{
     position: relative!important;
     text-align: center;
     font-family: "Poppins", sans-serif !important;
-    /* margin-top: 5rem; */
     margin-bottom: 0rem;
     padding-right: 2rem;
 }
@@ -580,7 +561,6 @@ button:hover{
     width: 45%;
     margin-bottom: 1rem;
     margin-left: 0rem;
-    /* padding-left: 1rem; */
     padding-right: 0rem;
     box-sizing: border-box;
 }
@@ -669,8 +649,6 @@ button:hover{
     margin-top: 1rem;
     margin-left: 5rem;
     margin-right: 4rem;
-    /* color: #4c4d4d;
-    font-family: "Poppins", sans-serif; */
 }
 .msa{
     width: 45%;
@@ -690,7 +668,6 @@ button:hover{
     color: #212529!important;
     text-align: left!important;
     margin-bottom: .5rem!important;
-    /* padding-right: 5rem; */
     line-height: 1.8;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
@@ -765,7 +742,6 @@ button:hover{
     line-height: 1.5;
     text-align: center;
     box-shadow: none;
-    /* border: 1px solid transparent; */
     margin-left: 35rem;
     margin-top: 1rem;
     text-decoration: none;
@@ -791,7 +767,6 @@ button:hover{
     margin-top: 5rem;
 }
 .sec5 .por{
-    /* z-index: -1; */
     color: #dee3e4;
     font-size: 8.25rem;
     width: 100%!important;
@@ -799,7 +774,6 @@ button:hover{
     font-weight: 550;
     text-align: center;
     font-family: "Poppins", sans-serif;
-    /* margin-top: 5rem; */
 }
 .sec5 .mw{
     z-index: 0;
@@ -811,7 +785,6 @@ button:hover{
     position: relative!important;
     text-align: center;
     font-family: "Poppins", sans-serif !important;
-    /* margin-top: 5rem; */
     margin-bottom: 0rem;
     padding-right: 2rem;
 }
@@ -867,11 +840,9 @@ button:hover{
     margin-bottom: 5rem;
     margin-left: 6rem;
     margin-right: 3rem;
-    /* margin-left: 5rem; */
     display: grid;
     grid-template-columns: repeat(3, 30.33%);
     grid-gap: 1.5rem;
-    /* grid-row-gap: 1.25rem; */
 }
 .sec5aa img{
     padding-bottom: 1.5rem;
@@ -882,7 +853,6 @@ button:hover{
 }
 
 .sec5aa1{
-    /* position: relative; */
     grid-row-gap: 1 / 2;
     grid-column: 1;
     border-radius: 0.5rem;
@@ -897,8 +867,6 @@ button:hover{
     padding: 0rem;
     margin: 0rem;
     text-align: center;
-    /* display: flex !important; */
-    /* flex-direction: column; */
     position: absolute;
     left: 0;
     right: 0;
@@ -937,8 +905,6 @@ button:hover{
     padding: 0rem;
     margin: 0rem;
     text-align: center;
-    /* display: flex !important; */
-    /* flex-direction: column; */
     position: absolute;
     left: 0;
     right: 0;
@@ -1549,7 +1515,133 @@ button:hover{
         font-size: 0.9rem;
     }
 }
-/*
+
 @media screen and (max-width:600px) {
+
+    header{
+        background-image: url(/images/intro-bg.jpg);
+        background-size: 110%;
+        background-position: center;
+        height: 100vh;
+    }
+
+    .con3{
+        margin-top: 10rem;
+    }
+    .con3 h1{
+        font-size: 2.5rem;
+    }
+    .sec2a{
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    .sec2aa{
+        width: 115%;
+    }
+    .sec2ab{
+        width: 110%;
+        align-items: stretch;
+    }
+    .sec2ab ul{
+        padding-left: 0rem;
+    }
+    .sec2ab button{
+        margin-left: 0rem;
+    }
+    .sec2ac{
+        flex-direction: column;
+    }
+    .sec2ac .row1,.row2,.row3,.row4{
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+        font-size: 1rem;
+    }
     
-} */
+    .sec3a{
+        flex-direction: column;
+        margin: 3rem 0.5rem;
+    }
+    .sec3aa{
+        padding-left: 0rem;
+        width: 90%;
+    }
+    .ser,.sum,.por,.con{
+        font-size: 4.3rem !important;
+    }
+    .am,.tes{
+        font-size: 3.5rem !important;
+    }
+    .kmm,.wid,.res,.mw,.cs,.git{
+        font-size: 2rem !important;
+    }
+    .sec4a{
+        flex-direction: column;
+        margin-left: 0rem;
+        padding-left: 1rem;
+    }
+    #resume button{
+        margin-left: 5rem;
+    }
+    .sec4aa{
+        width: 100%;
+    }
+    .sec4ab .p{
+        width: 35%;
+    }
+    .sec5aa{
+        margin-left: 0rem;
+        margin-right: 1rem;
+    }
+    .msh2{
+        margin-left: 0rem;
+    }
+    .ms{
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .msa,.msb{
+        width: 100%;
+    }
+    .msa{
+        padding-right: 0rem !important;
+    }
+    .msb{
+        padding-left: 0rem !important;
+    }
+    .sec6a{
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .sec6aa{
+        margin-right: 0rem;
+    }
+    .sec7m{
+        height: 65rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    .con9{
+        flex-direction: column;
+    }
+    .l,.r{
+        width: 120%;
+    }
+    .r{
+        margin-top: 1rem;
+    }
+    .r .input input{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .r button{
+        margin-left: 2rem;
+    }
+    .textarea textarea{
+        width: 21rem;
+        font-size: 0.9rem;
+    }
+}
